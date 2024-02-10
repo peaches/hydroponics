@@ -1,4 +1,10 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.hydroponicswall.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hydroponics Wall'
 theme = 'ananke'
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
